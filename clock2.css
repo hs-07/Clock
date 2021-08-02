@@ -1,0 +1,57 @@
+* {
+     margin: 0px;
+     padding: 0px;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+nav.navigation {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    width: 127%;
+}
+.navigation ul {
+    margin: auto;
+    font-size: 21px;
+    align-items: center;
+    justify-self: center;
+}
+.navigation label {
+    font-size: 30px;
+}
+.container {
+    width: 126%;
+    margin-block-end: 35px;
+}
+.box{
+    margin-block-start: 160px;
+}
+#second {
+    margin-block-end: -83px;
+}
+
+#minute {
+    margin-block-end: -71px;
+}
+#hour {
+    margin-block-end: -71px;
+}
+.circle {
+    margin-block-end: -76px;
+}
+button.btm-big {
+    justify-content: center;
+    text-align: center;
+    font-size: 19px;
+    margin: 20px;
+    padding: 10px 52px;
+}
+.switch {
+    width: 126%;
+}

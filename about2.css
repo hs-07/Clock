@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+
+nav.navigation {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    width: 418%;
+    height: 155px;
+    box-shadow: 0 4px 19px 7px rgb(0 0 0 / 40%);
+}
+
+.navigation ul {
+    margin: auto;
+    font-size: 63px;
+    align-items: center;
+    justify-self: center;
+}
+.navigation label {
+    font-size: 30px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 445%;
+    margin: 30px -106px;
+    align-items: center;
+}
