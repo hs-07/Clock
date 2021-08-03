@@ -14,7 +14,7 @@ nav.navigation {
     background-attachment: fixed;
     background-size: cover;
     position: absolute;
-    width: 100%;
+    width: 127%;
 }
 .navigation ul {
     margin: auto;
@@ -31,7 +31,7 @@ nav.navigation {
 }
 .box{
     margin-block-start: 191px;
-    left: -51px;
+    left: -10px;
     width: 310px;
     height: 310px;
 }
@@ -43,7 +43,7 @@ nav.navigation {
 #second {
     margin-block-end: -164px;
     height: 140px;
-    left: 182px;
+    left: 228px;
 }
 
 
@@ -51,16 +51,16 @@ nav.navigation {
 #minute {
     margin-block-end: -151px;
     border-bottom: 128px solid black;
-    left: 182px;
+    left: 223px;
 }
 #hour {
     margin-block-end: -131px;
-    left: 182px;
+    left: 222px;
     border-bottom: 86px solid white;
 }
 .circle {
     margin-block-end: -112px;
-    left: 175px;
+    left: 216px;
     width: 20px;
     height: 20px;
 }
@@ -72,5 +72,5 @@ button.btm-big {
     padding: 8px 45px;
 }
 .switch {
-    width: 100%;
+    width: 123%;
 }
