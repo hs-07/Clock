@@ -14,7 +14,7 @@ nav.navigation {
     background-attachment: fixed;
     background-size: cover;
     position: absolute;
-    width: 127%;
+    width: 100%;
 }
 .navigation ul {
     margin: auto;
@@ -30,28 +30,47 @@ nav.navigation {
     margin-block-end: 35px;
 }
 .box{
-    margin-block-start: 160px;
+    margin-block-start: 191px;
+    left: -51px;
+    width: 310px;
+    height: 310px;
+}
+.container img {
+    width: 300px;
+    height: 300px;
+    margin-left: 8px;
 }
 #second {
-    margin-block-end: -83px;
+    margin-block-end: -164px;
+    height: 140px;
+    left: 182px;
 }
 
+
+
 #minute {
-    margin-block-end: -71px;
+    margin-block-end: -151px;
+    border-bottom: 128px solid black;
+    left: 182px;
 }
 #hour {
-    margin-block-end: -71px;
+    margin-block-end: -131px;
+    left: 182px;
+    border-bottom: 86px solid white;
 }
 .circle {
-    margin-block-end: -76px;
+    margin-block-end: -112px;
+    left: 175px;
+    width: 20px;
+    height: 20px;
 }
 button.btm-big {
     justify-content: center;
     text-align: center;
-    font-size: 19px;
+    font-size: 18px;
     margin: 20px;
-    padding: 10px 52px;
+    padding: 8px 45px;
 }
 .switch {
-    width: 126%;
+    width: 100%;
 }
