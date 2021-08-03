@@ -32,3 +32,4 @@ function change(){
         Image_tracker=1;
     }
 }
+alert('Mobile user please zoom out for best experience. Sorry for the inconvience.');

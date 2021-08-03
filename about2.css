@@ -11,28 +11,60 @@ body{
 }
 
 nav.navigation {
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-    position: relative;
-    width: 418%;
-    height: 155px;
+    width: 430%;
+    height: 175px;
     box-shadow: 0 4px 19px 7px rgb(0 0 0 / 40%);
 }
-
 .navigation ul {
     margin: auto;
-    font-size: 63px;
+    font-size: 70px;
     align-items: center;
     justify-self: center;
 }
 .navigation label {
-    font-size: 30px;
+    font-size: 115px;
+    margin: 0px 33px 0px 57px;
+}
+.navigation ul li {
+    margin: 17px;
+}
+.navigation label {
+    font-size: 115px;
+    margin: 0px 33px 0px 57px;
+}
+.wrapper {
+    height: 356px;
+    width: 630px;
+    margin: 0px 430px;
+}
+.heading {
+    font-size: 111px;
+    text-shadow: 0.2px 0.2px 8px black;
 }
 .container {
     display: flex;
     flex-direction: column;
     width: 445%;
-    margin: 30px -106px;
+    margin: 10px -91px;
     align-items: center;
+}
+.analog {
+    height: 1066px;
+    width: fit-content;
+    border-radius: 100px;
+}
+.subHead {
+    height: 58px;
+    font-size: 48px;
+    margin-block-start: 35px;
+}
+.digital {
+    height: 1260px;
+    width: fit-content;
+    margin-top: 136px;
+    border-radius: 100px;
+}
+.desc {
+    font-size: 66px;
+    margin-block-start: 97px;
 }
