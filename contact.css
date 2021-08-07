@@ -106,7 +106,6 @@ body {
 
   .box{
     display: flex;
-    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
     background: radial-gradient(#ff000029, rgb(255 255 255 / 29%));
@@ -160,4 +159,41 @@ button.btn {
 button.btn:hover{
   background: rgb(255 67 3);
 color: whitesmoke;
+}
+
+/* Media query */
+
+@media (max-width:430px){
+  body{
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+}
+nav.navigation {
+  width: 134%;
+  height: 75px;
+}
+.navigation ul {
+  margin: auto;
+  font-size: 25px;
+  align-items: center;
+  justify-self: center;
+}
+.navigation label {
+  font-size: 40px;
+}
+.wrapper {
+  height: 124px;
+  width: 359px;
+  margin: 0px 60px;
+}
+.heading {
+  font-size: 57px;
+  text-shadow: 0.2px 0.2px 8px black;
+}
+.box {
+  /* left: 207px; */
+  margin-left: 118px;
+}
+
 }

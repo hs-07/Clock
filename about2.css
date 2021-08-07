@@ -12,7 +12,7 @@ body{
 
 nav.navigation {
     width: 430%;
-    height: 175px;
+    height: 207px;
     box-shadow: 0 4px 19px 7px rgb(0 0 0 / 40%);
 }
 .navigation ul {
@@ -33,38 +33,49 @@ nav.navigation {
     margin: 0px 33px 0px 57px;
 }
 .wrapper {
-    height: 356px;
-    width: 630px;
-    margin: 0px 430px;
+    height: 361px;
+    width: 844px;
+    margin: 0px 330px;
 }
 .heading {
-    font-size: 111px;
+    font-size: 150px;
     text-shadow: 0.2px 0.2px 8px black;
 }
 .container {
     display: flex;
     flex-direction: column;
-    width: 445%;
-    margin: 10px -91px;
+    width: 400%;
+    margin: 10px -4px;
     align-items: center;
 }
 .analog {
-    height: 1066px;
+    height: fit-content;
     width: fit-content;
     border-radius: 100px;
 }
 .subHead {
     height: 58px;
-    font-size: 48px;
-    margin-block-start: 35px;
+    font-size: 64px;
+    margin-block-start: 72px;
 }
 .digital {
-    height: 1260px;
+    height: fit-content;
     width: fit-content;
-    margin-top: 136px;
+    margin-top: 229px;
     border-radius: 100px;
+    padding-bottom: 87px;
+    margin-block-end: 200px;
 }
-.desc {
-    font-size: 66px;
-    margin-block-start: 97px;
+.digital .desc p {
+    font-size: 173px;
+    margin-block-start: 179px;
+}
+.analog .desc {
+    font-size: 76px;
+    padding: 36px;
+    margin: 132px 73px;
+}
+.digital .desc label {
+    font-size: 48px;
+    margin-left: 30px;
 }
