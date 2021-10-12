@@ -11,71 +11,74 @@ body{
 }
 
 nav.navigation {
-    width: 430%;
-    height: 207px;
+    width: 101%;
+    height: 60px;
     box-shadow: 0 4px 19px 7px rgb(0 0 0 / 40%);
 }
 .navigation ul {
     margin: auto;
-    font-size: 70px;
+    font-size: 1.2rem;
     align-items: center;
     justify-self: center;
 }
-.navigation label {
-    font-size: 115px;
-    margin: 0px 33px 0px 57px;
-}
 .navigation ul li {
-    margin: 17px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 3px 3px;
+    list-style: none;
 }
 .navigation label {
-    font-size: 115px;
-    margin: 0px 33px 0px 57px;
+    font-size: 2.5rem;
+    margin: 0px 13px 0px -2px;
 }
+
 .wrapper {
-    height: 361px;
-    width: 844px;
-    margin: 0px 330px;
+    height: 100%;
+    width: 98%;
 }
 .heading {
-    font-size: 150px;
-    text-shadow: 0.2px 0.2px 8px black;
+    font-size: 51px;
+    text-shadow: 0.2px 0.2px 3px black;
 }
 .container {
     display: flex;
     flex-direction: column;
-    width: 400%;
-    margin: 10px -4px;
+    width: 100%;
+    margin: 9px -15px;
     align-items: center;
 }
 .analog {
     height: fit-content;
-    width: fit-content;
-    border-radius: 100px;
+    width: 20rem;
+    border-radius: 23px;
+    margin-left: 9.5rem;
 }
 .subHead {
-    height: 58px;
-    font-size: 64px;
-    margin-block-start: 72px;
+    height: 40px;
+    font-size: 20px;
+    margin-block-start: 22px;
 }
 .digital {
-    height: fit-content;
-    width: fit-content;
-    margin-top: 229px;
-    border-radius: 100px;
-    padding-bottom: 87px;
-    margin-block-end: 200px;
+    width: 88%;
+    margin-top: 70px;
+    border-radius: 23px;
+    margin-left: 9.5rem;
+}
+.digital .desc{
+        text-align: center; 
 }
 .digital .desc p {
-    font-size: 173px;
-    margin-block-start: 179px;
+    font-size: 29px;
+    margin-block-start: 36px;
 }
 .analog .desc {
-    font-size: 76px;
-    padding: 36px;
-    margin: 132px 73px;
+    font-size: 22px;
+    margin: 24px -2px;
 }
 .digital .desc label {
-    font-size: 48px;
-    margin-left: 30px;
+    text-align: center;
+    font-family: "Acme", sans-serif;
+    padding: 0px;
+    font-size: 14px;
+    margin: auto;
 }

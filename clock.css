@@ -59,6 +59,10 @@ body {
   text-decoration: overline;
   color: rgb(255, 0, 140);
 }
+
+
+/* ANALOG CLOCK CSS */
+
 .container {
   display: flex;
   align-items: center;
@@ -130,6 +134,48 @@ body {
   box-shadow: 0 0px 41px 0 rgb(0 0 0 / 98%);
   transform: scale(1.02);
 }
+
+
+/* DIGITAL CLOCK CSS */
+
+.digital {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 15px 25px rgb(0 0 0 / 10%);
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+  border-radius: 0.7rem;
+  backdrop-filter: blur(18px);
+  height: 250px;
+  font-family: "Acme", sans-serif;
+}
+
+h2{
+  font-size: 6rem;
+  margin: 1rem;
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  backdrop-filter: blur(25px);
+  box-shadow: 0px 15px 25px rgb(0 0 0 / 15%);
+}
+h3{
+  font-size: 6rem;
+}
+#second-2{
+  color: #ff0000;
+}
+span{
+  font-size: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+
+/* BUTTON CSS */
+
 .switch{
   display: flex;
   align-items: center;

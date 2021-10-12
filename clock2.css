@@ -14,12 +14,12 @@ nav.navigation {
     background-attachment: fixed;
     background-size: cover;
     position: absolute;
-    width: 127%;
-    height: 68px;
+    width: 100%;
+    height: 60px;
 }
 .navigation ul {
     margin: auto;
-    font-size: 25px;
+    font-size: 19px;
     align-items: center;
     justify-self: center;
 }
@@ -27,7 +27,7 @@ nav.navigation {
     font-size: 40px;
 }
 .container {
-    width: 126%;
+    width: 100%;
     margin-block-end: 35px;
 }
 .box{
@@ -44,24 +44,22 @@ nav.navigation {
 #second {
     margin-block-end: -164px;
     height: 140px;
-    left: 228px;
+    left: 178px;
 }
-
-
 
 #minute {
     margin-block-end: -151px;
     border-bottom: 128px solid black;
-    left: 223px;
+    left: 186px;
 }
 #hour {
-    margin-block-end: -131px;
-    left: 222px;
+    margin-block-end: -136px;
+    left: 175px;
     border-bottom: 86px solid white;
 }
 .circle {
     margin-block-end: -112px;
-    left: 216px;
+    left: 174px;
     width: 20px;
     height: 20px;
 }
@@ -73,5 +71,5 @@ button.btm-big {
     padding: 8px 45px;
 }
 .switch {
-    width: 123%;
+    width: 100%;
 }
