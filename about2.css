@@ -59,26 +59,22 @@ nav.navigation {
     margin-block-start: 22px;
 }
 .digital {
-    width: 88%;
+    width: 20rem;
     margin-top: 70px;
     border-radius: 23px;
     margin-left: 9.5rem;
+    height: fit-content;
 }
-.digital .desc{
-        text-align: center; 
+.digital .desc {
+    text-align: center;
+    padding: 0px;
+    margin: 16px 21px;
 }
 .digital .desc p {
-    font-size: 29px;
-    margin-block-start: 36px;
+    font-size: 22px;
+    margin-block-start: 31px;
 }
 .analog .desc {
     font-size: 22px;
     margin: 24px -2px;
-}
-.digital .desc label {
-    text-align: center;
-    font-family: "Acme", sans-serif;
-    padding: 0px;
-    font-size: 14px;
-    margin: auto;
 }

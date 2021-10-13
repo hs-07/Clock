@@ -121,24 +121,10 @@ body {
   font-family: 'Kaushan Script', cursive;
   font-size: 22px;
 }
-.analog .desc{
+.desc{
   text-align: center;
   font-family: "Acme", sans-serif;
   margin: 21px;
   padding: 0px 35px;
   font-size: 20px;
-}
-.digital .desc p {
-  text-align: center;
-  font-family: "Acme", sans-serif;
-  margin: 21px;
-  padding: 0px 35px;
-  font-size: 51px;
-}
-.digital .desc label{
-  text-align: center;
-  font-family: "Acme", sans-serif;
-  margin: 48px;
-  padding: 0px ;
-  font-size: 14px;
 }

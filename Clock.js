@@ -19,19 +19,26 @@ setInterval(() => {
 // DIGITAL SETINTERVAL
 
 setInterval(() => {
-    let hour = document.getElementsById('hour-2');
-    let minute = document.getElementsById('minute-2');
-    let second = document.getElementsById('second-2');
-    let ampm = document.getElementsById('ampm');
-
-    let h = new Date().getHours();
-    let m = new Date().getMinutes();
-    let s = new Date().getSeconds();
+    let hour = document.getElementById('hour-2');
+    let minute = document.getElementById('minute-2');
+    let second = document.getElementById('second-2');
+    let ampm = document.getElementById('ampm');
+    d = new Date();
+    let h = d.getHours();
+    let m = d.getMinutes();
+    let s = d.getSeconds();
     var am = 'AM';
 
+    if (h>12){
+        h=h-12;
+        var am = 'PM';
+    }
+    h = (h < 10) ? '0' + h : h;
+    m = (m < 10) ? '0' + m : m;
     hour.innerHTML = h;
     minute.innerHTML = m;
     second.innerHTML = s;
+    ampm.innerHTML = am;
 }, 1000);
 
 
@@ -56,20 +63,20 @@ function change() {
     }
 }
 
-let hideNshow = '1';
+// let hideNshow = '1';
 function hide() {
 
-    let analog = document.getElementById('container');
+     let analog = document.getElementById('container');
+     let digital = document.getElementById('digital');
 
-    if (hideNshow == '1') {
-        analog.style.display = "none";
-
-        hideNshow = 2;
-    } else if (hideNshow == '2') {
-        analog.style.display = "flex";
-
-        hideNshow = 1;
+    if(analog.style.display === 'flex'){
+        analog.style.display = 'none';
+        digital.style.display = 'flex';
+    }else {
+        analog.style.display = 'flex';
+        digital.style.display = 'none';
     }
+
 }
 
 
