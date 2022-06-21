@@ -128,3 +128,74 @@ body {
   padding: 0px 35px;
   font-size: 20px;
 }
+
+@media(max-width:630px ){
+  nav.navigation {
+    width: 101%;
+    height: 60px;
+    box-shadow: 0 4px 19px 7px rgb(0 0 0 / 40%);
+}
+.navigation ul {
+    margin: auto;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-self: center;
+}
+.navigation ul li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 3px 3px;
+    list-style: none;
+}
+.navigation label {
+    font-size: 2.5rem;
+    margin: 0px 13px 0px -2px;
+}
+
+.wrapper {
+    height: 100%;
+    width: 98%;
+}
+.heading {
+    font-size: 51px;
+    text-shadow: 0.2px 0.2px 3px black;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 9px -15px;
+    align-items: center;
+}
+.analog {
+    height: fit-content;
+    width: 20rem;
+    border-radius: 23px;
+    margin-left: 9.5rem;
+}
+.subHead {
+    height: 40px;
+    font-size: 20px;
+    margin-block-start: 22px;
+}
+.digital {
+    width: 20rem;
+    margin-top: 70px;
+    border-radius: 23px;
+    margin-left: 9.5rem;
+    height: fit-content;
+}
+.digital .desc {
+    text-align: center;
+    padding: 0px;
+    margin: 16px 21px;
+}
+.digital .desc p {
+    font-size: 22px;
+    margin-block-start: 31px;
+}
+.analog .desc {
+    font-size: 22px;
+    margin: 24px -2px;
+}
+}
