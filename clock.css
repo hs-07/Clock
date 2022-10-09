@@ -191,7 +191,7 @@ button.btm-big {
   margin: 5px;
   padding: 3px 40px;
   border: none;
-  background: linear-gradient( 
+  background: linear-gradient(
     45deg
      , #810adc, #05fff3);
   color: floralwhite;
@@ -204,12 +204,22 @@ button.btm-big {
 }
 
 button.btm-big:hover{
-  background: linear-gradient( 
+  background: linear-gradient(
     45deg
      , #0adc2d, #00ffdd);
      transform: scale(1.1);
      color: black;
      box-shadow: 0px 0px 27px 5px rgb(123 255 3);
+}
+#footer{
+  background-color: #36a2ef;
+  text-align: center;
+  height: 100px;
+  padding-top: 30PX;
+
+}
+.social-icon{
+  margin: 20px 10px;
 }
 
 @media(max-width:450px){
@@ -296,5 +306,4 @@ h2 {
 
 h3#dots {
    font-size: 3rem;
-}
 }
