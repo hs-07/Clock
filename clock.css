@@ -214,12 +214,18 @@ button.btm-big:hover{
 #footer{
   background-color: #36a2ef;
   text-align: center;
-  height: 100px;
+  height: 130px;
   padding-top: 30PX;
 
 }
 .social-icon{
   margin: 20px 10px;
+
+}
+.social-icon:hover{
+  transform: scale(1.5);
+  color: #810adc;
+
 }
 
 @media(max-width:450px){
