@@ -43,8 +43,8 @@ This repository is open to all members of the GitHub community. Any member can c
 <h2> Some important tips ‼️ </h2>
 <p> 1. Run the following commands to see that your local copy has a reference to your forked remote repository in Github :octocat: </p><br>
 <p> $ git remote -v
-origin  https://github.com/Your_Username/PlaylistAdda.git (fetch)<br>
-origin  https://github.com/Your_Username/PlaylistAdda.git (push) </p>
+origin  https://github.com/Your_Username/Clock.git (fetch)<br>
+origin  https://github.com/Your_Username/Clock.git (push) </p>
 <p> 2. Always keep your local copy of the repository updated with the original repository. Before making any changes and/or in an appropriate interval, run the following commands carefully to update your local repository.</p><br>
 <p> # Fetch all remote repositories and delete any deleted remote branches<br>
 $ git fetch --all --prune<br>
