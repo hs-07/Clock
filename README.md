@@ -22,7 +22,8 @@ This repository is open to all members of the GitHub community. Any member can c
 <h1> About the project </h1>
 <p>The project aims to provide a clear comparison between what is an Analog Clock and Digital Clock. It is made using HTML,CSS and JS, and the project after following the below given steps would look like this </p>
 <br>
-![image](https://user-images.githubusercontent.com/91537487/195262179-bfd9c217-330d-4bd2-b71c-85a30714361f.png)
+
+![Clock](https://user-images.githubusercontent.com/91537487/195262730-105d54ad-cbe7-401e-b4c5-738269779f5b.png)
 
 
 <h2>Steps to follow</h2>
