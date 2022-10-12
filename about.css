@@ -106,7 +106,7 @@ body {
   background: lightgray;
   box-shadow: 0px 0px 20px 1px black;
   border-radius: 30px;
-  height:72vh;
+  height:100%;
   overflow:hidden;
 }
 .digital{
@@ -115,7 +115,7 @@ body {
   background: lightgray;
   box-shadow: 0px 0px 20px 1px black;
   border-radius: 30px;
-  height: 72vh;
+  height: 100%;
   overflow: hidden;
 }
 .subHead{
