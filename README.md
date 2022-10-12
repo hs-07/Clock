@@ -12,12 +12,12 @@
 <ol>You can sign up anytime between October 1 and October 31.</ol>
 </li>
 <br>
-<h1>This repository aims to help code beginners with their first successful pull request and open-source contribution. 🥳
+<h2>This repository aims to help code beginners with their first successful pull request and open-source contribution. 🥳
 ⭐ Feel free to use this project to make your first contribution to an open-source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
 ⭐ Make sure to grab some cool swags during Hacktoberfest by getting involved in the open-source community.
 
-This repository is open to all members of the GitHub community. Any member can contribute to this project! The only thing which you need to keep in mind is that it should be genuine PR 😁</h1>
+This repository is open to all members of the GitHub community. Any member can contribute to this project! The only thing which you need to keep in mind is that it should be genuine PR 😁</h2>
 
 <h2>Steps to follow</h2>
 
