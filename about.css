@@ -7,7 +7,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 750px;
+  height: 100%;
   background: linear-gradient(
     45deg,
     #8f1ee9,
@@ -66,7 +66,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 10px;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
 }
 
 .heading {
@@ -100,20 +101,22 @@ body {
   padding: 10px;
 }
 .analog{
-  width: 30%;
-  margin: 0px 140px;
+  width: 80%;
+  margin: 0px 10%;
   background: radial-gradient(#ff000029, rgb(255 255 255 / 29%));
   box-shadow: 0px 0px 20px 1px black;
-  border-radius: 12px;
-
+  border-radius: 30px;
+  height:100%;
+  overflow:hidden;
 }
 .digital{
-  width: 30%;
-  margin: 0px 140px;
-  background: radial-gradient(#f700ff29, rgb(255 255 255 / 29%));
+  width: 80%;
+  margin: 0px 10%;
+  background: radial-gradient(#ff000029, rgb(255 255 255 / 29%));
   box-shadow: 0px 0px 20px 1px black;
-  border-radius: 12px;
-  height: 399px;
+  border-radius: 30px;
+  height: 100%;
+  overflow: hidden;
 }
 .subHead{
   margin: 10px;
@@ -169,9 +172,8 @@ body {
 }
 .analog {
     height: fit-content;
-    width: 20rem;
-    border-radius: 23px;
-    margin-left: 9.5rem;
+    width: 83%;
+    margin:4vw;
 }
 .subHead {
     height: 40px;
@@ -179,10 +181,9 @@ body {
     margin-block-start: 22px;
 }
 .digital {
-    width: 20rem;
-    margin-top: 70px;
-    border-radius: 23px;
-    margin-left: 9.5rem;
+    width: 83%;
+    margin: 4vw;
+    
     height: fit-content;
 }
 .digital .desc {
